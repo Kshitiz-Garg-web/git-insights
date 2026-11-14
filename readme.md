@@ -1,0 +1,155 @@
+# Lecture 1
+
+
+## key points
+1. gui ek graphical interface hai jider hm interact krka perform kar skta h ok
+2. same operation we can also perform via the command means via cli
+cmd / wps / cloud shell / bash -> all are shell
+cmd and wps based on window os
+bash based on linux os
+3. alg alg shell mai comand different hojti hai even for same work isi karan sai ek chij fixed h ki alg alg server's ka lya hm linux based shell ka hi use krga 
+4. asa possible h ki kisis operation perform kerna k lya same comand ho per unska begavoire alg alg shell little bit so hm bash k respect mai hi sab chija explore krga bcz at the end to hmko servers k interact krna h islya usi ka uper ka krga ok kyu bakar kisis or k lya comands dekga ok
+5. basicallt ager m overall bato to kuch asa h 
+terminal ek software jsika under multiples software mtlb ki wo shells ok isko kuch iss tere smj lo ki ek borswer open krka different different tab mai website open krna 
+
+## doubt
+1. sir n bola ki terinal app hai ok or uska under multiple app run lrta h under app h powershell , bash shell ok per yha dono shell to alg al;g os per based and terminal jo allication wow kisi ek os per based hgoa right if yes to wo knsa os ha for terminal ok or fr wo ek inner app ko run , mananagr kr rha jabki woot kisi or os per based means parent os1 per based and uska children os2 per absed h to kesa parent children ko manage kr rha h ?????
+2. cli koi ek common term hai , like gui ya cli el software ha mtlb ki terminal ek software h ok per to cli ek parent k for temrinal like asa kuch mtlb ki terminal k alva bhi cli hoti mtlb terminal ek cli application h to fr terminal k alva bhi cli applications hoti ya fr cli mtlb terminal hi hota h ????
+
+
+
+
+# lecture 2
+
+## key points
+1. git install kya to pata chla ki git hmko kai sara componnets provide krta h ok like bash shell / git gui / git cmd etc
+2. git ka gui k interface , not so good then i check a source code form it in github 
+3. git ka use krka hm yha sab comand chla skta h but same chija or bhi sheels h una bhi krta h per git k jo main kam h wo yha nai h bcz git ek tool j ki build h version controll system per ok jiska help s hm log project k version k track rkta h and work ko manage kerta h individaully or team mai 
+4. repositry ek databse k tere h but not truly , jider hmra code k version store and track hota h 
+
+
+
+
+
+
+
+
+
+
+
+
+## doubts
+1. ![alt text](./images/image.png)
+yha kns kns component h or kiska kya sue ha 
+2. vim name k ek edtitor h jisko git via defualt select rkta h [er mena select kya vscode to kya mtlb h iskam]
+3. git cmd and git bash dono comonent ha ok to differnce kya ha
+4. git jo ki software h wo knsa databse k use krta h kya mere sawal sai bhi h 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# all basics comand for terminal
+----------------------------------------
+
+  ls
+  cd
+  cd ../
+
+  touch
+  mkdir
+
+  rm currentfilename/currentfoldername newname (to rename)
+
+  rm filename1 foldernae filename2 ./location2 (location2 will br relative or absu both) (to move from one folder to another)
+
+  rm filename
+  rmdir foldername (if folder is empty)
+
+  filename -> to run file (for others)
+  start filename -> to run file in git bash
+
+  .code (to open the vs code @ current working directory)
+  pwd
+
+  softwareName --version
+
+----------------------------------------
+
+# all basics comand for git (bash terminal)
+----------------------------------------
+
+ ## git comand 
+ 1.  git init
+ 2.  git add filename1 2 3 etc or git add . (knsa file track kerni hai uska lya unn sab file ko staging area m add krna hoti means like stanging area mai move kerna from unstaged area )
+ 3. git status
+
+
+
+ ## git flags
+ 1. -s (short m diplay kerta h)
+
+
+
+
+
+
