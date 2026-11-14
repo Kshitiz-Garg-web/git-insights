@@ -44,6 +44,7 @@ yha kns kns component h or kiska kya sue ha
 2. vim name k ek edtitor h jisko git via defualt select rkta h [er mena select kya vscode to kya mtlb h iskam]
 3. git cmd and git bash dono comonent ha ok to differnce kya ha
 4. git jo ki software h wo knsa databse k use krta h kya mere sawal sai bhi h 
+5. kai bhr -, -- use krta h per asa kyu or kabor kiska sath ok in command
 
 
 
@@ -142,6 +143,12 @@ yha kns kns component h or kiska kya sue ha
  1.  git init
  2.  git add filename1 2 3 etc or git add . (knsa file track kerni hai uska lya unn sab file ko staging area m add krna hoti means like stanging area mai move kerna from unstaged area )
  3. git status
+ 5. git commit -m "commit message here"
+ 6. 
+ 7. git config --global user.key (to get)
+ 8. git config --global user.key "value" (to sett) (part of configuration) (name and email needs to configure)
+ 9. git log (to see all commits)
+
 
 
 
