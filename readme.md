@@ -25,7 +25,11 @@ terminal ek software jsika under multiples software mtlb ki wo shells ok isko ku
 1. git install kya to pata chla ki git hmko kai sara componnets provide krta h ok like bash shell / git gui / git cmd etc
 2. git ka gui k interface , not so good then i check a source code form it in github 
 3. git ka use krka hm yha sab comand chla skta h but same chija or bhi sheels h una bhi krta h per git k jo main kam h wo yha nai h bcz git ek tool j ki build h version controll system per ok jiska help s hm log project k version k track rkta h and work ko manage kerta h individaully or team mai 
-4. repositry ek databse k tere h but not truly , jider hmra code k version store and track hota h 
+4. repositry ek databse k tere h but not truly , jider hmra code k version store and track hota h
+5. unstaged area means current working directory measn jo abhi tak ya fr jo new kam kere h wo jisko abhi commit nai kera h wo idedr hota h but jesa hi staging area m add krta h iska matlb ki ek bhr frr s check krlo final commit s bcz fr riska bad git iska track rkga glti s extra ya glt chija to add nai hoga h
+6. single file k trakc ya recod check krn a h to uska lya hm use krta h vs code k feature timeline (user 2 ticks milta h local history , git hisptory so basically we need for git so check git one is must)
+7. if we want to see history for a file if we dont init git then time line with local hisotry
+
 
 
 
@@ -47,8 +51,9 @@ yha kns kns component h or kiska kya sue ha
 5. kai bhr -, -- use krta h per asa kyu or kabor kiska sath ok in command
 
 
-
-
+# lecture 3
+## key points
+1. jab bhi hm log kerta h to hm milta h ek head krka basically iska kam hota h yha represent kerna ki abhi hm knsa branch mai h ya fr knsa commit mai h ok
 
 
 
@@ -148,19 +153,12 @@ yha kns kns component h or kiska kya sue ha
  7. git config --global user.key (to get)
  8. git config --global user.key "value" (to sett) (part of configuration) (name and email needs to configure)
  9. git log (to see all commits)
- 10. 
 
 
 
 
-
- ## git flags
+ ## git flags or comand line options
  1. -s (short m diplay kerta h)
- 2. -h (git something -h sai , homko usko sytxas or info milti h)
- 3. --all,
- 4. --decorte
- 5. --oneline
- 6. graph
 
 
 
