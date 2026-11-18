@@ -161,7 +161,3 @@ yha kns kns component h or kiska kya sue ha
  1. -s (short m diplay kerta h)
 
 
-
-
-
-
