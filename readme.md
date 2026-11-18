@@ -152,12 +152,27 @@ yha kns kns component h or kiska kya sue ha
  6. 
  7. git config --global user.key (to get)
  8. git config --global user.key "value" (to sett) (part of configuration) (name and email needs to configure)
- 9. git log (to see all commits)
+ 9. git log (to see all commits , fro here we get commit_id)
+ 10. git checkout commit_id
+
 
 
 
 
  ## git flags or comand line options
  1. -s (short m diplay kerta h)
+ 2. --all
+ 3. --oneline
+ 4. --graph
+ 5. --decorate
+
+ `Note`
+ Har short option ka long equivalent available nahi hota aur har long option ka short equivalent bhi nahi hota.
+
+ Short aur Long options command-line arguments ke do formats hain. Dono ka one-to-one mapping hona zaroori nahi hai. Git developers har option ke liye short alias provide karein, ye mandatory nahi hai.
+
+
+
+
 
 
