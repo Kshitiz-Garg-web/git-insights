@@ -148,12 +148,19 @@ yha kns kns component h or kiska kya sue ha
  7. git config --global user.key (to get)
  8. git config --global user.key "value" (to sett) (part of configuration) (name and email needs to configure)
  9. git log (to see all commits)
+ 10. 
+
 
 
 
 
  ## git flags
  1. -s (short m diplay kerta h)
+ 2. -h (git something -h sai , homko usko sytxas or info milti h)
+ 3. --all,
+ 4. --decorte
+ 5. --oneline
+ 6. graph
 
 
 
