@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
   <title>Git & GitHub — Field Notes</title>
   <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
   <a class="skip-link" href="#main-content">Skip to notes</a>
 
@@ -34,7 +36,8 @@
       <div class="hero-copy">
         <p class="eyebrow"><span class="eyebrow-line"></span> LEARNING IN PUBLIC · NOTES 01—02</p>
         <h1>Small steps.<br><em>Better commits.</em></h1>
-        <p class="hero-intro">Git aur GitHub ko samajhne ki meri journey — simple words, real questions, and the commands I want to remember.</p>
+        <p class="hero-intro">Git aur GitHub ko samajhne ki meri journey — simple words, real questions, and the
+          commands I want to remember.</p>
         <a class="text-link" href="#lectures">Explore the field notes <span aria-hidden="true">↓</span></a>
       </div>
       <div class="hero-art" aria-label="A terminal window showing a Git command" role="img">
@@ -50,14 +53,16 @@
             <p><span class="terminal-prompt">you@learning</span> <span class="terminal-path">~/project</span></p>
             <p><span class="terminal-dollar">$</span> git status</p>
             <p class="terminal-output">On branch main<br>Nothing to commit, working tree clean</p>
-            <p><span class="terminal-prompt">you@learning</span> <span class="terminal-path">~/project</span> <span class="terminal-cursor" aria-hidden="true"></span></p>
+            <p><span class="terminal-prompt">you@learning</span> <span class="terminal-path">~/project</span> <span
+                class="terminal-cursor" aria-hidden="true"></span></p>
           </div>
         </div>
         <span class="art-caption">a little progress, every day <span aria-hidden="true">✳</span></span>
         <span class="hero-sticker" aria-hidden="true">01<br><small>START<br>HERE</small></span>
       </div>
       <div class="hero-meta" id="start-reading">
-        <span>FIELD NOTES</span><span class="meta-separator"></span><span>2 LECTURES</span><span class="meta-separator"></span><span>BEGINNER FRIENDLY</span>
+        <span>FIELD NOTES</span><span class="meta-separator"></span><span>2 LECTURES</span><span
+          class="meta-separator"></span><span>BEGINNER FRIENDLY</span>
       </div>
     </section>
 
@@ -82,37 +87,49 @@
             <span class="read-time">5 MIN READ</span>
           </div>
           <h2>First, let's talk<br>about the <em>terminal.</em></h2>
-          <p class="article-lead">Before Git, there’s the place where we talk to our computer: a terminal, a shell, and a whole lot of new words.</p>
+          <p class="article-lead">Before Git, there’s the place where we talk to our computer: a terminal, a shell, and
+            a whole lot of new words.</p>
 
           <div class="idea-card">
             <span class="idea-icon" aria-hidden="true">↗</span>
             <div>
               <h3>GUI or CLI — what’s the difference?</h3>
-              <p>A <strong>GUI</strong> (Graphical User Interface) lets us interact visually — click, point, and explore. A <strong>CLI</strong> (Command-Line Interface) lets us do the same kind of work by typing commands.</p>
+              <p>A <strong>GUI</strong> (Graphical User Interface) lets us interact visually — click, point, and
+                explore. A <strong>CLI</strong> (Command-Line Interface) lets us do the same kind of work by typing
+                commands.</p>
             </div>
           </div>
 
           <div class="prose">
-            <p><strong>GUI = visual.</strong> <strong>CLI = command based.</strong> Both are ways to interact with software; they just feel different to use.</p>
-            <p>CMD, PowerShell, Cloud Shell, and Bash are all shells. CMD and PowerShell are associated with Windows, while Bash is common on Linux. Commands can differ from shell to shell — sometimes even when the task is the same.</p>
-            <blockquote>For learning server workflows, I’m focusing on Bash — it’s a useful common ground when working with Linux-based servers.</blockquote>
-            <p>One way to picture a terminal: it’s like a browser window, and shells are a bit like the different places you can work inside it. The comparison isn’t exact, but it helps me get started.</p>
+            <p><strong>GUI = visual.</strong> <strong>CLI = command based.</strong> Both are ways to interact with
+              software; they just feel different to use.</p>
+            <p>CMD, PowerShell, Cloud Shell, and Bash are all shells. CMD and PowerShell are associated with Windows,
+              while Bash is common on Linux. Commands can differ from shell to shell — sometimes even when the task is
+              the same.</p>
+            <blockquote>For learning server workflows, I’m focusing on Bash — it’s a useful common ground when working
+              with Linux-based servers.</blockquote>
+            <p>One way to picture a terminal: it’s like a browser window, and shells are a bit like the different places
+              you can work inside it. The comparison isn’t exact, but it helps me get started.</p>
           </div>
 
           <div class="callout">
             <span class="callout-tag">A NOTE TO SELF</span>
-            <p>A terminal is an application. A shell is the command interpreter it runs. The CLI is the text-based way we interact with a program — it isn’t just another name for the terminal.</p>
+            <p>A terminal is an application. A shell is the command interpreter it runs. The CLI is the text-based way
+              we interact with a program — it isn’t just another name for the terminal.</p>
           </div>
 
           <section class="questions" id="lecture-one-questions">
             <h3 class="section-kicker"><span>01</span> QUESTIONS I’M STILL EXPLORING</h3>
             <details>
               <summary>How can a Windows terminal run Bash, which is associated with Linux?</summary>
-              <p>A terminal app provides the window; a shell provides the command environment. Windows can host different shell environments, so the terminal itself doesn’t have to be “a Linux terminal.” I’m still exploring exactly how each setup works.</p>
+              <p>A terminal app provides the window; a shell provides the command environment. Windows can host
+                different shell environments, so the terminal itself doesn’t have to be “a Linux terminal.” I’m still
+                exploring exactly how each setup works.</p>
             </details>
             <details>
               <summary>Is CLI a program, or is the terminal the CLI?</summary>
-              <p>CLI means Command-Line Interface — a way to interact with software using text commands. The terminal is an app where you can open a shell and use a CLI.</p>
+              <p>CLI means Command-Line Interface — a way to interact with software using text commands. The terminal is
+                an app where you can open a shell and use a CLI.</p>
             </details>
           </section>
         </article>
@@ -123,33 +140,43 @@
             <span class="read-time">6 MIN READ</span>
           </div>
           <h2>Git is more than<br>a <em>command.</em></h2>
-          <p class="article-lead">Git gives us a way to track changes, revisit earlier versions, and manage work — on our own or with a team.</p>
+          <p class="article-lead">Git gives us a way to track changes, revisit earlier versions, and manage work — on
+            our own or with a team.</p>
 
           <div class="prose">
-            <p>Installing Git also gives us useful tools and ways to work, like Git Bash, Git GUI, and Git CMD. Git’s graphical interface didn’t feel right for me, so I decided to explore the source code and learn the commands instead.</p>
-            <p>Git isn’t tied to one shell. We can use Git commands in Git Bash or other shells — the main idea is what Git does with our project.</p>
+            <p>Installing Git also gives us useful tools and ways to work, like Git Bash, Git GUI, and Git CMD. Git’s
+              graphical interface didn’t feel right for me, so I decided to explore the source code and learn the
+              commands instead.</p>
+            <p>Git isn’t tied to one shell. We can use Git commands in Git Bash or other shells — the main idea is what
+              Git does with our project.</p>
           </div>
 
           <div class="concept-grid">
             <div class="concept-card">
               <span class="concept-index">01 / TRACK</span>
               <h3>Version control</h3>
-              <p>Git tracks changes to a project, so we can understand how work evolves and manage it individually or as a team.</p>
+              <p>Git tracks changes to a project, so we can understand how work evolves and manage it individually or as
+                a team.</p>
             </div>
             <div class="concept-card">
               <span class="concept-index">02 / STORE</span>
               <h3>Repository</h3>
-              <p>A repository stores and tracks the versions of our project. It’s a little like a database, but it isn’t a database in the usual sense.</p>
+              <p>A repository stores and tracks the versions of our project. It’s a little like a database, but it isn’t
+                a database in the usual sense.</p>
             </div>
           </div>
 
           <div class="stage-card">
             <div class="stage-top">
-              <div><span class="stage-label">THE GIT WORKFLOW</span><h3>Working tree <span>→</span> staging area <span>→</span> commit</h3></div>
+              <div><span class="stage-label">THE GIT WORKFLOW</span>
+                <h3>Working tree <span>→</span> staging area <span>→</span> commit</h3>
+              </div>
               <span class="stage-icon" aria-hidden="true">⌁</span>
             </div>
-            <p>Unstaged changes are the work in your current working directory that hasn’t been committed yet. Add the changes you want to keep to the staging area, review them, and then commit.</p>
-            <div class="stage-steps"><span>01&nbsp; EDIT</span><span>02&nbsp; STAGE</span><span>03&nbsp; COMMIT</span></div>
+            <p>Unstaged changes are the work in your current working directory that hasn’t been committed yet. Add the
+              changes you want to keep to the staging area, review them, and then commit.</p>
+            <div class="stage-steps"><span>01&nbsp; EDIT</span><span>02&nbsp; STAGE</span><span>03&nbsp; COMMIT</span>
+            </div>
           </div>
 
           <section class="questions">
@@ -161,26 +188,33 @@
             </details>
             <details>
               <summary>What does it mean when Git uses Vim as an editor?</summary>
-              <p>Git can open a text editor for things like commit messages. I selected VS Code instead, and I’m learning what that setting changes.</p>
+              <p>Git can open a text editor for things like commit messages. I selected VS Code instead, and I’m
+                learning what that setting changes.</p>
             </details>
             <details>
               <summary>How are Git CMD and Git Bash different?</summary>
-              <p>They provide different command-line environments for working with Git. The shell commands and behavior can differ, even though Git is available in both.</p>
+              <p>They provide different command-line environments for working with Git. The shell commands and behavior
+                can differ, even though Git is available in both.</p>
             </details>
             <details>
               <summary>What database does Git use?</summary>
-              <p>Git’s repository stores project history in its own object database. The database comparison is a helpful starting point, but it isn’t the same as a typical application database.</p>
+              <p>Git’s repository stores project history in its own object database. The database comparison is a
+                helpful starting point, but it isn’t the same as a typical application database.</p>
             </details>
             <details>
               <summary>Why do commands have flags like <code>-s</code> and <code>--global</code>?</summary>
-              <p>Flags modify a command’s behavior. For example, <code>-s</code> asks <code>git status</code> for a shorter display, while <code>--global</code> applies a Git configuration setting for the current user.</p>
+              <p>Flags modify a command’s behavior. For example, <code>-s</code> asks <code>git status</code> for a
+                shorter display, while <code>--global</code> applies a Git configuration setting for the current user.
+              </p>
             </details>
           </section>
         </article>
 
         <section class="command-section" id="terminal">
           <div class="command-heading">
-            <div><span class="lecture-number">QUICK REFERENCE <span>·</span> 01</span><h2>Terminal <em>basics</em></h2></div>
+            <div><span class="lecture-number">QUICK REFERENCE <span>·</span> 01</span>
+              <h2>Terminal <em>basics</em></h2>
+            </div>
             <span class="command-symbol" aria-hidden="true">&gt;_</span>
           </div>
           <p class="article-lead">A tiny cheat sheet for finding your way around.</p>
@@ -195,12 +229,15 @@
             <div><code>.code</code><span>Open VS Code at the current directory</span></div>
             <div><code>start file-name</code><span>Open a file from Git Bash on Windows</span></div>
           </div>
-          <p class="command-note"><span>↳</span> The original notes also mention <code>rm</code> and <code>rmdir</code> for removing files and empty folders. Double-check a command before using it: removal can be permanent.</p>
+          <p class="command-note"><span>↳</span> The original notes also mention <code>rm</code> and <code>rmdir</code>
+            for removing files and empty folders. Double-check a command before using it: removal can be permanent.</p>
         </section>
 
         <section class="command-section git-commands" id="git-basics">
           <div class="command-heading">
-            <div><span class="lecture-number">QUICK REFERENCE <span>·</span> 02</span><h2>Git <em>basics</em></h2></div>
+            <div><span class="lecture-number">QUICK REFERENCE <span>·</span> 02</span>
+              <h2>Git <em>basics</em></h2>
+            </div>
             <span class="command-symbol git-symbol" aria-hidden="true">git</span>
           </div>
           <p class="article-lead">The commands from my first Git notes, with a little context.</p>
@@ -211,12 +248,16 @@
             <div><code>git add .</code><span>Stage changes in the current directory</span></div>
             <div><code>git commit -m "message"</code><span>Save staged changes with a message</span></div>
             <div><code>git config --global user.name "Name"</code><span>Set your name for Git commits</span></div>
-            <div><code>git config --global user.email "you@example.com"</code><span>Set your email for Git commits</span></div>
+            <div><code>git config --global user.email "you@example.com"</code><span>Set your email for Git
+                commits</span></div>
             <div><code>git log</code><span>Review the commit history</span></div>
             <div><code>git checkout commit-id</code><span>Visit a specific point in history</span></div>
             <div><code>git status -s</code><span>Show a shorter status summary</span></div>
           </div>
-          <div class="tip-card"><span class="tip-icon" aria-hidden="true">✳</span><p><strong>Before your first commit:</strong> set your Git user name and email, then check <code>git status</code> to review what you’re about to save.</p></div>
+          <div class="tip-card"><span class="tip-icon" aria-hidden="true">✳</span>
+            <p><strong>Before your first commit:</strong> set your Git user name and email, then check
+              <code>git status</code> to review what you’re about to save.</p>
+          </div>
         </section>
 
         <footer class="article-footer">
@@ -229,10 +270,13 @@
 
   <footer class="site-footer">
     <div class="page-width footer-inner">
-      <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">g<span>.</span></span><span>gitnotes<span class="brand-light">/journal</span></span></a>
+      <a class="brand footer-brand" href="#top"><span class="brand-mark"
+          aria-hidden="true">g<span>.</span></span><span>gitnotes<span class="brand-light">/journal</span></span></a>
       <p>Made while learning. Updated as I go.</p>
       <span class="footer-year">FIELD NOTES · 2025</span>
     </div>
   </footer>
+  <script src="./app.js"></script>
 </body>
+
 </html>
