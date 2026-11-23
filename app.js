@@ -7,4 +7,4 @@ const intervalId = setInterval(() => {
     console.log("your setTimeInterval is killed")
   }
 }, 1000)
-console.log('backend is powered by the nodejs)
+console.log('backend is powered by the nodejs')
