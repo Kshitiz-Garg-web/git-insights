@@ -42,6 +42,54 @@ terminal ek software jsika under multiples software mtlb ki wo shells ok isko ku
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## doubts
 1. ![alt text](./images/image.png)
 yha kns kns component h or kiska kya sue ha 
