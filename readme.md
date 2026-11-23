@@ -172,6 +172,9 @@ gitlab
  14. git checkout branchName (to enter into that brnach)
  15. git merge branchName (jiski kerna ) , (jiska under kerna h uss branch m hona ust h ok)
  16. git push -u origin main
+ 
+ 17. git fetch and then git merge -> git pull (automatcaaaly do fast forwared ok)
+
 
 
 
