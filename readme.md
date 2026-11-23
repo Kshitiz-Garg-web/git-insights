@@ -64,6 +64,9 @@ github
 gitlab
 
 
+2. fast forwared merge 
+- ismai merge commit nai ata h 
+- jab commit history linear h to asa hota hai , 
 
 
 
@@ -168,7 +171,7 @@ gitlab
  13. git branh -d branchName
  14. git checkout branchName (to enter into that brnach)
  15. git merge branchName (jiski kerna ) , (jiska under kerna h uss branch m hona ust h ok)
-
+ 16. git push -u origin main
 
 
 
@@ -179,6 +182,8 @@ gitlab
  3. --oneline
  4. --graph
  5. --decorate
+ 6. -u to set upstream ok
+ 7. -D,-d to delete branch
 
  `Note`
  Har short option ka long equivalent available nahi hota aur har long option ka short equivalent bhi nahi hota.
