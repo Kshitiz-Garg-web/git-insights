@@ -154,6 +154,11 @@ yha kns kns component h or kiska kya sue ha
  8. git config --global user.key "value" (to sett) (part of configuration) (name and email needs to configure)
  9. git log (to see all commits , fro here we get commit_id)
  10. git checkout commit_id
+ 11. git branch branchName
+ 12. git branch (to log all branchs)
+ 13. git checkout branchName (to enter into that brnach)
+ 14. git branh -d branchName
+ 15. git merge branchName (jiski kerna ) , (jiska under kerna h uss branch m hona ust h ok)
 
 
 
@@ -170,6 +175,11 @@ yha kns kns component h or kiska kya sue ha
  Har short option ka long equivalent available nahi hota aur har long option ka short equivalent bhi nahi hota.
 
  Short aur Long options command-line arguments ke do formats hain. Dono ka one-to-one mapping hona zaroori nahi hai. Git developers har option ke liye short alias provide karein, ye mandatory nahi hai.
+
+ `Note`
+ 1. cntl + shift + p
+ git comamnd pilot open hota h 
+ i used it for a git lens graph
 
 
 
