@@ -56,6 +56,15 @@ yha kns kns component h or kiska kya sue ha
 1. jab bhi hm log kerta h to hm milta h ek head krka basically iska kam hota h yha represent kerna ki abhi hm knsa branch mai h ya fr knsa commit mai h ok
 
 
+# lecture 5
+## key points
+1. these all are gui application where we manage a repo kind of git repo
+bitbucket (intergrable via jira)
+github
+gitlab
+
+
+
 
 
 
@@ -156,8 +165,8 @@ yha kns kns component h or kiska kya sue ha
  10. git checkout commit_id
  11. git branch branchName
  12. git branch (to log all branchs)
- 13. git checkout branchName (to enter into that brnach)
- 14. git branh -d branchName
+ 13. git branh -d branchName
+ 14. git checkout branchName (to enter into that brnach)
  15. git merge branchName (jiski kerna ) , (jiska under kerna h uss branch m hona ust h ok)
 
 
@@ -180,9 +189,4 @@ yha kns kns component h or kiska kya sue ha
  1. cntl + shift + p
  git comamnd pilot open hota h 
  i used it for a git lens graph
-
-
-
-
-
 
