@@ -69,58 +69,58 @@ gitlab
 - jab commit history linear h to asa hota hai , 
 
 
+# LECTURE 6 Revert and Reset Commits
+## KEY POINTS 1
+1. ager hamna glti s koi commit kr dya h to fr kesa mistake ko improve krga
+2. yha cases ata h wo yha ki wo glt commit abhi tak local history mai ha ya fr remote
+3. for local we use `reset` and for remote we use `revert`
 
+## KEY POINTS 2 about all reset
+1. reset k case m ye hmko teen flag options milta h like hard, moxed, soft 
+2. but ager glti s reset kr dya h to fr kesa correct krga so yes we need to know coommit at which from we moved for that we can use git reflog then git reset sameflag commit_id
+3. mtlb ki ager local tak simit h to yes we can delete , restore via using rest only and rest use a head for that restoreing concept
 
+## key point 3 about head we see, how we can navigate
+1. basically head attached hota h branch sa ok but we can ditached from it , can atached with particaluer commit_id, then hmra project wesa hoga jesa uss time us particluar commit id pai tha ok 
+git checkout comit_id
+2. or ager mai uss branch k jisper hm kam kr rha h usi pai cehckout krta hu to fr wo latest per jaker fr s attached hoga default ok
+3. similar we can also naviage via using head simileraly like checkout
+`git checkout head` - same commit per hoga but attached nai phl asa tha see
+(head->main) , oer ab asa hoga (head,main) mtlb we need for headlocation 
+`git checkout head~no.` , no. from 0 to +x,-x ok , from current location to bottom or top we can move.
+current s top per jata h to then -x, 
+current s bottom per jata h to then +x, 
+current location always be a 0 ok,
+this head concept we can also use in case of reset basically jider jider hm commit_id ki needs h uder uder hm yha head~no. wala concept use krsta h ok but yes ek chija yha bhi h rest use krna h for restore to uss commit id reflog s milga mtlb wo hma noraml log krna per nai aga to iss case m head~no. kesa bec wo abhi iss partucali log k part h n h because rest kar dya tha n
 
+## KEY POINTS 4 about all revert
+0. or ager lets suppsoe ki wo ek commit kisi or n developer n kya h but we can revert it , so no easy ok
+1. jesa hi hm log bath kerta h remote ki to fr reset use n krta h bcz chances h history mismatch hona ki bcz ek project per multiple developers kam krta h pata chla ki kisis n fetch , merge kr lya eans pull and then frr hmna rest kra reomte pai to fr commit history missmatch hogi h ok to best pratice h ki remote k case m reset n use kro , revert use kro
+2. 
+- jisko kerna h revert uski id but rest k case m wo tha jisper move krna h ok,
+- added new commit,
+- jnsa commit id use kri h coomit id k time wala code jo add hua tha wo sab remove kr deta 
+3. merged commit ko revert krna thoda different prcoess that we will be covered
+4. if we want to revert a multiple commints then
+- can use manualy one by one 
+- can use in a range so we can proceed in one pass but jitna revert coomit hoga utna hi no. of revert commit banaga ok
+`git revert head~num..head~num` 
+ git revert olderCommit..latstCommit
+            not included included
+- but ager m chata hu ki ek hi rever msg bana to fr uska lya, ider asa 2 steps kyu bcz 1st step s wo sab code jo uss ranges m add haua tha wo sab stages area m ata h ok to fr continue krka hm pricedd krta h
+`git revert -no--commit head~num..head~num` 
+`git revert --containue head~num..head~num` 
 
+### My doubts
+`OUES - 1`
+1- to revert a multiple commits in same containous manner we can do this via manually , ranges so we have a doubt for ranges ki ager ager m ranges dena k pattern oposite krdu to kya reqult bhi reverse hoga ??
 
+`ANSWER -1`
+- HEAD~n current commit se backward counting karta hai. Aur A..B mein A exclude aur B include hota hai. Isliye last 3 commits revert karne ke liye git revert HEAD~3..HEAD use karte hain.
+Isliye first argument older aur second newer dena linear history mein generally convenient hota hai.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Git range syntax A..B directional hai. Newer aur older ko reverse karne se Git automatically range reverse nahi karta. Agar tum git revert mein expected commits select karna chahte ho, toh older boundary first aur newer boundary second rakho.
+- Aur ek baat: Ye explanation linear history ke liye hai. Merge commits aur branching history mein reachability ki wajah se range ka result aur complex ho sakta hai.
 
 
 
@@ -175,18 +175,37 @@ gitlab
  
  17. git fetch and then git merge -> git pull (automatcaaaly do fast forwared ok)
 
+ 18. git reset flag (commit_id or head~NO.) (id at which location we want)
+
+ 19. git reflog (removed commit bhi visible hota h)  , lets we get commit id3 okthen
+     git reset that sameFlag id3
+
+ 20. git revert commit_id (jis commit ko revert krna h uska commit id ok)
+     git revert head~num..head~num 
+                older     latest   (if we want to revert multiple commit + utna hi revert commit banaga jitna range m gai h ok or also we can do sepreatrely manualy)
 
 
 
 
  ## git flags or comand line options
  1. -s (short m diplay kerta h)
+
  2. --all
  3. --oneline
  4. --graph
  5. --decorate
+
  6. -u to set upstream ok
+
  7. -D,-d to delete branch
+
+ 8. --hard (code reset + commit histoery remove)
+ 9. --soft (no code reset means code still present in  file but stages area m ajta h means ager hm manuly unstaged krda to fr remove hojta h code ok + commit histoery remove)
+ 10. --mixed (by defult) (code histpery removed ok + but code still present but wo unstaged area m ata h before wala case stages area m ata h so we can chnage it manually )
+
+ 11. -no--commit (no commit, ek hi commit mai sab revert cover krdo but actualy mai sab ko staged area m lkr ata h then continue kr skta h means ki totlay hta do prcoedd krna h aga ya fr jesa tha phla wesa krdo usko lya abort h)
+ 12. --abort
+ 13. --containue
 
  `Note`
  Har short option ka long equivalent available nahi hota aur har long option ka short equivalent bhi nahi hota.
