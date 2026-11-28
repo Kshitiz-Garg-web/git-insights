@@ -155,7 +155,12 @@ incomplelte func ko commit n kernchay to fr ek trika h wo stash
 2. stages iss like a commit kind of , hm stagh kr deta h wtih one msg ok to then we can switch into another brachs 
 
 
-
+# lecture 9 cherrypick in git and gitub
+## learning 1
+1. basically ager ek branch contanct h jisma hmna abhi tak 3 commits kra h ok to or mai chatua hu wo chages apna main  to fr 2 options h 
+2. option 1 ki contact branch ko merg krdo main k under iss s overall code uder ajga ok as simple
+3. option 2 ager m chata hu ki kable kuch pic of code mtlb kuch commits sara n like totla 3 commits h or m chat hu kable ek commit to fr then we can se cherry-pick , iska kable wo ek partuclr commit mian m aga , or ek new commit milga hmko main with diff commit id but same commit msg ok 
+git cherry-pick commmit_id 
 
 
 
