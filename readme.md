@@ -124,7 +124,7 @@ Isliye first argument older aur second newer dena linear history mein generally 
 
 
 # lecture 7 how to Resolve Conflict in Git?
-## learning 1
+## learning 1  what an issue and then solution 
 1. conflict kesa yes to basically ata h merg k time, 2 brachs h ok Ba, Bb ok or same file k same line per hmnak,uch change kere h or sath m commit bhi kr dya h to but jesa hi merge krga kisi ek m dusra to merge error aga wo bolga ki ab final knsa changes m hmko rkna h 
 2. jiss branch ka under erge krhga uska show hoga `current change ` or jis branch ko merge kr rha h uska lya aga `incoming change` to inn dono ma s knsa final kerna h or sath hmko ek new section milga side pannael `merge changes` krka like `staged change` , `unstage change` kerka jesa milta h 2 sec eans total 3 hman deka h ab
 3. knsa decide krna h uska 4 options milta h
@@ -133,7 +133,12 @@ Isliye first argument older aur second newer dena linear history mein generally 
 - accept both change
 - compare both
 
+4. git add . (to move from merge changes to stages chamges)
+5. git commit (default msg set ok) or git commit -m "msg"
 
+## learning 2 when we are not ready , dont know about solution so abort concept
+1. see ager conflict aha or mai merge kr rha tha ok to frr options milga ok jesa ki hmna phla deka h per ager we dont know ki knsa accept krna h chagnes , jiss developer n kra h wo avai;lable nai h to fr , kya kerea bcz hm abhi h mergeing mai h to hm kuch or kam nai slrta h to we can , abort mtlb ki abhi k lya chor iski bad dekga mtlb ki merge kr rha tha n to at kro or kuch kam krlo asa h 
+`git merge --abort`
 
 # all basics comand for terminal
 ----------------------------------------
@@ -180,6 +185,7 @@ Isliye first argument older aur second newer dena linear history mein generally 
  13. git branh -d branchName
  14. git checkout branchName (to enter into that brnach)
  15. git merge branchName (jiski kerna ) , (jiska under kerna h uss branch m hona ust h ok)
+     git merge --abort 
  16. git push -u origin main
  
  17. git fetch and then git merge -> git pull (automatcaaaly do fast forwared ok)
@@ -215,6 +221,8 @@ Isliye first argument older aur second newer dena linear history mein generally 
  11. -no--commit (no commit, ek hi commit mai sab revert cover krdo but actualy mai sab ko staged area m lkr ata h then continue kr skta h means ki totlay hta do prcoedd krna h aga ya fr jesa tha phla wesa krdo usko lya abort h)
  12. --abort
  13. --containue
+
+ 14. --abort (to cancle merging because conflict we have , dont know which we need to select, and we want work other but on same project)
 
  `Note`
  Har short option ka long equivalent available nahi hota aur har long option ka short equivalent bhi nahi hota.
