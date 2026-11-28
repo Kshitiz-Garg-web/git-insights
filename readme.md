@@ -172,8 +172,8 @@ git cherry-pick commmit_id
 basically jo file/folder abhi track nai hui h means git m as version save nau hui h to uska directname provide rka hm kr skta h 
 `case 2`
 jo file ya folder already track hoga h unka lya frr yes we can use a command 
-git rm filename
-git rm foldername
+git rm --cached filename
+git rm -r foldername 
 
 
 
