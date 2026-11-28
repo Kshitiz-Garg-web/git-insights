@@ -163,7 +163,17 @@ incomplelte func ko commit n kernchay to fr ek trika h wo stash
 git cherry-pick commmit_id 
 
 
-
+# lecture 10 .gitignore
+## learning 1
+1. kuch files , folder jinko hm yha n chata hi version control system inko track rka or inka record rka to uska hm use krta h .gitignore file
+2. .gitignore file m files , folder add krta h ok
+3. 2 case h like jo file already track wo or jo abhi tack nai hui ek wo 
+`case 1 `
+basically jo file/folder abhi track nai hui h means git m as version save nau hui h to uska directname provide rka hm kr skta h 
+`case 2`
+jo file ya folder already track hoga h unka lya frr yes we can use a command 
+git rm filename
+git rm foldername
 
 
 
