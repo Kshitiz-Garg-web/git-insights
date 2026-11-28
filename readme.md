@@ -125,7 +125,13 @@ Isliye first argument older aur second newer dena linear history mein generally 
 
 # lecture 7 how to Resolve Conflict in Git?
 ## learning 1
-
+1. conflict kesa yes to basically ata h merg k time, 2 brachs h ok Ba, Bb ok or same file k same line per hmnak,uch change kere h or sath m commit bhi kr dya h to but jesa hi merge krga kisi ek m dusra to merge error aga wo bolga ki ab final knsa changes m hmko rkna h 
+2. jiss branch ka under erge krhga uska show hoga `current change ` or jis branch ko merge kr rha h uska lya aga `incoming change` to inn dono ma s knsa final kerna h or sath hmko ek new section milga side pannael `merge changes` krka like `staged change` , `unstage change` kerka jesa milta h 2 sec eans total 3 hman deka h ab
+3. knsa decide krna h uska 4 options milta h
+- both
+- both
+- both 
+- both
 
 
 # all basics comand for terminal
