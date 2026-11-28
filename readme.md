@@ -145,6 +145,16 @@ ager kisi user n git pai push kar dya h kuch changes ok or meni bhi same fbrakch
 
 
 
+# lecture 8 What is Stashing in Git? 
+## learning 1
+1. see suppose hmna kuch changes kra h code file m ok like function sendOtpToEmail(from,to,sub,content,files){
+  // now body is ready but logic we will added later
+}
+asa h or mere ko kisi or brnach m kam krna h to swtcih kern aper aga ki phla iss changes ko commit kro otherwise yha reset hoga to ab kesa kera becase ek best pratice h ki 
+incomplelte func ko commit n kernchay to fr ek trika h wo stash
+2. stages iss like a commit kind of , hm stagh kr deta h wtih one msg ok to then we can switch into another brachs 
+
+
 
 
 
@@ -214,6 +224,14 @@ ager kisi user n git pai push kar dya h kuch changes ok or meni bhi same fbrakch
                 older     latest   (if we want to revert multiple commit + utna hi revert commit banaga jitna range m gai h ok or also we can do sepreatrely manualy)
 
 
+ 21. git stash or git stash -m "stash msg"
+     git stash list (we got list, index for all incompleted work, stash items)
+     git stash apply index (wo particuler code add hoga current opening file m but stash m abhi uder hi present hoga)
+     git stash pop index (ab is case same as apply but stash list m s bhi removed hoga)
+     git stash drop index (to delete from stash list only)
+     git stash clear (to clear whole stash ok)
+
+ 22. git cherry-pick commit_id_for_another_branch (jis branch m kerna h merge kind to usi branch m present hona hoga ok)
 
 
  ## git flags or comand line options
