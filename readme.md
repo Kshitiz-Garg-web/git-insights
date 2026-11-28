@@ -136,9 +136,23 @@ Isliye first argument older aur second newer dena linear history mein generally 
 4. git add . (to move from merge changes to stages chamges)
 5. git commit (default msg set ok) or git commit -m "msg"
 
+6. same conflict we get via this also
+ager kisi user n git pai push kar dya h kuch changes ok or meni bhi same fbrakch , same file same line pai changes kya h apna lock m or mai ager fetch merge mtlb pull krta hu to frr definalty same conflict milga ok to same process ha
+
 ## learning 2 when we are not ready , dont know about solution so abort concept
 1. see ager conflict aha or mai merge kr rha tha ok to frr options milga ok jesa ki hmna phla deka h per ager we dont know ki knsa accept krna h chagnes , jiss developer n kra h wo avai;lable nai h to fr , kya kerea bcz hm abhi h mergeing mai h to hm kuch or kam nai slrta h to we can , abort mtlb ki abhi k lya chor iski bad dekga mtlb ki merge kr rha tha n to at kro or kuch kam krlo asa h 
 `git merge --abort`
+
+
+
+
+
+
+
+
+
+
+
 
 # all basics comand for terminal
 ----------------------------------------
