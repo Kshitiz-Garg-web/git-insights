@@ -123,6 +123,8 @@ Isliye first argument older aur second newer dena linear history mein generally 
 - Aur ek baat: Ye explanation linear history ke liye hai. Merge commits aur branching history mein reachability ki wajah se range ka result aur complex ho sakta hai.
 
 
+# lecture 7 how to Resolve Conflict in Git?
+## learning 1
 
 
 
